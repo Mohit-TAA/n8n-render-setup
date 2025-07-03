@@ -1,0 +1,31 @@
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js and n8n build artifacts
+node_modules/
+dist/
+build/
+*.log
+
+# n8n configuration and credentials
+*.env
+*.json
+!.gitignore
+!.dockerignore
+!Dockerfile
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# OS-generated files
+.DS_Store
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
